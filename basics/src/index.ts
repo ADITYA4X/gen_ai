@@ -24,6 +24,16 @@ async function run() {
           role: "user",
           content: "Hello, how are you?",
         },
+        // {
+        //   role: "assistant",
+        //   content:
+        //     "I'm just a computer program, but thanks for asking! How can I assist you today?",
+        // },
+        // {
+        //   role: "system",
+        //   content:
+        //     "You are a helpful assistant that provides information and answers questions.",
+        // },
       ],
     });
 
