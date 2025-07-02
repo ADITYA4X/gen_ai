@@ -13,5 +13,10 @@
     "@types/node": "^24.0.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "openai": "^5.8.2",
+    "prompt-sync": "^4.2.0"
   }
 }
