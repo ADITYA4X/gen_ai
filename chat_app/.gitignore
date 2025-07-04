@@ -35,3 +35,6 @@ coverage/
 
 # Turbo/monorepo stuff (optional if using Turborepo)
 .turbo/
+
+# Ignore TypeScript configuration files
+tsconfig.json

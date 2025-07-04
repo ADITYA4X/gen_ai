@@ -18,4 +18,18 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Ignore TypeScript configuration files
+tsconfig.json
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore npm cache
+.npm
+
+
 

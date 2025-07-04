@@ -1,0 +1,97 @@
+# ========================================
+# 🔧 Core Node.js
+# ========================================
+node_modules/
+npm-debug.log*
+package-lock.json.*.backup
+
+# ========================================
+# ⚙️ TypeScript
+# ========================================
+dist/
+build/
+*.tsbuildinfo
+
+# If you accidentally compile JS in source
+*.js
+*.js.map
+*.d.ts
+
+# ========================================
+# 🔒 Environment Variables
+# ========================================
+.env
+.env.*
+!.env.example  # keep a safe example file
+
+# ========================================
+# 🧪 Testing & Coverage
+# ========================================
+coverage/
+.nyc_output/
+
+# ========================================
+# 🧾 Logs & Temp
+# ========================================
+*.log
+logs/
+log.txt
+debug.log
+.cache/
+tmp/
+temp/
+
+# ========================================
+# 🧠 IDE / Editor Specific
+# ========================================
+
+# VS Code
+.vscode/
+
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ========================================
+# 🛠️ Linters / Tools
+# ========================================
+.eslintcache
+.prettiercache
+
+# ========================================
+# 🔁 Optional: Remove if not used
+# ========================================
+# Firebase
+.firebase/
+.firebaserc
+
+# PM2
+pids
+pms.json
+*.pid
+*.seed
+
+# ========================================
+# 🧪 Optional: Test Results
+# ========================================
+test-results/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
