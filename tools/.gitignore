@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables (if you accidentally put one in root)
+.env
+
+# Log files
+*.log
+
+# Turbo/monorepo cache (if using)
+.turbo/
+
+# IDE/editor
+.vscode/
+.idea/
+
+
