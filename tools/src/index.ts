@@ -11,6 +11,8 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+// This code demonstrates how to use OpenAI's tool calling feature to get the current time in Japan.
+
 // Step-1: Define the tool function
 function getTimeInJapan(): string {
   const options: Intl.DateTimeFormatOptions = {

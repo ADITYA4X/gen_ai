@@ -8,6 +8,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+// Function to generate an image from text using OpenAI's DALL-E model
 async function generateImageFromText() {
   try {
     const response = await openai.images.generate({
@@ -54,7 +55,7 @@ async function textToSpeech() {
 
 textToSpeech();
 
-// Function to convert speech to text using OpenAI's Whisper model
+// Function to convert
 async function SpeechToText() {
   try {
     const response = await openai.audio.transcriptions.create({

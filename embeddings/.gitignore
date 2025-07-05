@@ -1,0 +1,54 @@
+# Node.js and TypeScript
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# If you accidentally compile JS in source
+*.js
+*.js.map
+*.d.ts
+
+# ========================================
+# 🧾 Logs & Temp
+# ========================================
+*.log
+logs/
+log.txt
+debug.log
+.cache/
+tmp/
+temp/
+
+
+# Datasets / temporary files
+data/
+dataset/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# Embedding cache
+*.npy
+*.npz
+*.pkl
+*.h5
+embedding_cache/
+vector_store/
+chroma_db/
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
