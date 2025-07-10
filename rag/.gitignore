@@ -1,0 +1,76 @@
+# ------------------------------
+# Node & General Dev
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+.out/
+.next/
+*.tsbuildinfo
+
+# .env files
+.env
+.env.*
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+*.log.*
+debug.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.eslintcache/
+*.tmp
+tmp/
+*.bak
+
+# LangChain.js / ChromaDB / RAG related
+vector_store/
+chroma_db/
+*.jsonl
+*.db
+*.sqlite
+*.faiss
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose.override.yml
+docker-build/
+*.tar
+
+# Output files
+outputs/
+exports/
+*.csv
+*.pdf
+*.json
+
+# Misc
+.history/
+*.pid
+*.seed
+*.orig
+
+# Coverage
+coverage/
+
